@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="br'">
+
+<head>
+    <title>BRQ Solutions - Cadastro</title>
+    <meta charset="utf-8">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/img/icon-brq.svg" type="image/x-icon" />
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+</head>
+
+<body>
+    <form class="form">
+        <div class="card">
+            <div class="card-top">
+                <img class="imglogin" src="./assets/img/logo.svg" alt="">
+                <h2>Cadastro</h2>
+            </div>
+            <div class="card-group">
+                <label for="nome">Nome:</label>
+                <input type="text" size="40" placeholder="Nome Completo" required>
+                <label for="cpf">CPF:</label>
+                <input type="text" placeholder="000.000.000-00" required>
+                <label for="rg">RG:</label>
+                <input type="text" placeholder="00.000.000-2" name="" id="">
+                <label for="email">Email:</label>
+                <input type="text" size="40" placeholder="Email Valido" name="" id="" required>z
+            </div>
+            <div class="card-sexo">
+                <label for="sexo">SEXO:</label>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="opcao" id="op1">
+                <label for="Fem">Feminino</label>
+                <input type="radio" name="opcao" id="op2">
+                <label for="outro">Outro</label>
+                <input type="radio" name="opcao" id="op3">
+            </div>
+            <div class="card-group">
+                <h2>Endereço</h2><br><br>
+                <label >Estado:</label><br><br>
+            </div>
+            <div class="card-estado">
+                <select form="card-estado" name="estado" id="uf"><br>
+                    <option value="0">Escolha sua Regiao</option><br><br>
+                    <optgroup label="Norte"></optgroup>
+                    <option value="1">Acre</option>
+                    <option value="2">Amazonas</option>
+                    <option value="3">Amapa</option>
+                    <option value="4">Pará</option>
+                    <option value="5">Rondonia</option>
+                    <option value="6">Raraima</option>
+                    <option value="7">Tocantins</option>
+
+                    <optgroup label="Nordeste"></optgroup>
+                    <option value="8">Alagoas</option>
+                    <option value="9">Bahia</option>
+                    <option value="10">Ceara</option>
+                    <option value="11">Maranhao</option>
+                    <option value="12">Piaui</option>
+                    <option value="13">Pernambuco</option>
+                    <option value="14">Paraiba</option>
+                    <option value="15">Rio Grande do Norte</option>
+                    <option value="16">Sergipe</option>
+
+
+                    <optgroup label="Sudeste"></optgroup>
+                    <option value="17">Espeito Santo </option>
+                    <option value="18">Minas Gerais</option>
+                    <option value="19">Rio de Janeiro</option>
+                    <option value="20">São Paulo</option>
+
+                    <optgroup label="Centro-Oeste"></optgroup>
+                    <option value="21">Goias </option>
+                    <option value="22">Mato Grosso</option>
+                    <option value="23">Mato Grosso Do Sul</option>
+                    <option value="24">Distrito Federal</option>
+
+                    <optgroup label="Sul"></optgroup>
+                    <option value="25">Paraná</option>
+                    <option value="26">Rio Grande do Sul</option>
+                    <option value="27">Santa Catarina</option>
+
+
+                </select>
+
+                <div class="card-estado">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" placeholder="Cidade">
+                </div>
+                <div class="card-estado">
+                    <label for="cep">CEP:</label>
+                    <input type="text" placeholder="04849663">
+                </div>
+                <div class="card-estado">
+                    <label for="bairro">BAIRRO:</label>
+                    <input type="text" placeholder="Bairro">
+                </div>
+                <div class="card-estado">
+                    <label for="rua">RUA:</label>
+                    <input type="text" size="30" placeholder="logradura">
+                </div>
+                <div class="card-estado">
+                    <label for="nu">Numero:</label>
+                    <input type="text" size="5" placeholder="Numero"><br><br>
+                </div>
+                <div class="card-estado">
+                    <label for="comp">Complemento:</label>
+
+                    <input type="text" size="30" placeholder="andar, Apartamento, Bloco">
+                    <div class="card-group">
+                    <button><a href="modo.html" class="btn"> Cadastrar</a></button>
+                </div>
+            </div>
+
+    </form>
+</body>
+
+</html>

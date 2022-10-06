@@ -7,6 +7,8 @@
     --background-color: #121116;
     --color-orange: #ED8B00;
     --color-white: #fff;
+    --color-gray: #a8a8a8;
+    --color-blue: #005fa3;
 }
 
 
@@ -68,16 +70,45 @@ input {
     border: none;
 }
 
+.btn {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 24px;
+
+}
 .btn button:hover {
     background-image: linear-gradient(to right, rgb(204, 128, 83));
     
 }
 
-.imglogin {
-    
+a {
+    text-decoration: none;
+    color: var(--color-gray);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--color-blue);   
 }
 
 .title {
     color: #ED8B00;
     padding: 25px;
+}
+
+.description {
+    padding: 25px;
+    color: var(--color-gray);
+}
+
+.card-sexo {
+    width: 100%;
+    color: #fcf6f6;
+    display: block;
+    padding-top: 15px;
+    padding: 5px;
+    padding-top: 15px;
+    padding-inline-start: 15px;
 }
