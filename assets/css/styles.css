@@ -112,3 +112,21 @@ a:hover {
     padding-top: 15px;
     padding-inline-start: 15px;
 }
+
+.card-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-icon {
+    width: 246px;
+    height: 246px;
+    background-color: #a8a8a8;
+    border-radius: 50px;
+    display: flex;
+}
+
+
